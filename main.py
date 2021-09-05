@@ -32,11 +32,11 @@ turtle.setup()
 turtle.screensize(win_width, win_height)
 turtle.color('#363636')
 
-turtle.tracer(0)
-turtle.left(90)
+turtle.tracer(tracer)
+turtle.right(start_angle)
 turtle.pensize(1)
 turtle.up()
-turtle.goto(-400, -200)
+turtle.goto(start_position[0], start_position[1])
 turtle.down()
 temp = []
 
